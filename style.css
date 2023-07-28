@@ -1,0 +1,45 @@
+body {
+    background-color: aquamarine;
+}
+
+#score {
+    font-size: large;
+    margin: 100px;
+    float: left;
+}
+
+#timer {
+    font-size: large;
+    margin: 120px;
+    float: right;
+}
+
+#STBD {
+    font-size: larger;
+    color: rgb(55, 72, 50);
+}
+
+#show_sketch {
+    float: right;
+    margin-right: 20px;
+}
+
+h1 {
+    padding-left: 130px;
+    color: azure;
+    background-color: rgb(51, 47, 47);
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 25px;
+    animation-name: ani;
+    animation-duration: 1s;
+    margin-top: 120;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ani{
+    from {box-shadow: 1px 1px 38px blue;}
+    to {box-shadow: 1px 1px 38px red;}
+}
